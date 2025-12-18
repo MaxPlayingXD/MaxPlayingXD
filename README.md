@@ -12,9 +12,9 @@
 Soy un desarrollador curioso y creativo que disfruta experimentar con nuevas tecnologías, frameworks y motores. Me encanta combinar programación con arte digital, diseño sonoro y herramientas open source.  
 Actualmente estoy trabajando en **CubaDating**, una app experimental para conectar personas en Cuba.
 
-- 🎯 Siempre buscando nuevos retos
-- 🧪 Explorador de lenguajes modernos como Rust y WGSL
-- 🎮 Apasionado por el desarrollo de videojuegos con Bevy y Unity
+- 🎯 Siempre buscando nuevos retos  
+- 🧪 Explorador de lenguajes modernos como Rust y WGSL  
+- 🎮 Apasionado por el desarrollo de videojuegos con Bevy y Unity  
 - 📫 Contacto: **arielalejandroproc@gmail.com**
 
 ---
@@ -34,7 +34,7 @@ Actualmente estoy trabajando en **CubaDating**, una app experimental para conect
 
 ## 🧰 Tech Stack
 
-### 🧑‍💻 Lenguajes
+### 📚 Lenguajes
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" alt="Rust" width="40" height="40"/>
