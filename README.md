@@ -60,16 +60,6 @@
 
 ---
 
-##  Estadísticas de GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MaxPlayingXD&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaxPlayingXD&layout=compact&theme=tokyonight" alt="Top Languages"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MaxPlayingXD&theme=tokyonight" alt="Streak Stats"/>
-</p>
-
----
-
 ##  Trofeos
 
 <p align="center">
