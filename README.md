@@ -1,40 +1,72 @@
-# > Hello there.
+# > Hola.
 
-> Just AIk, just out of interest.
+> Solo Ariel, solo por interes.
 
 ---
 
-<h2 align="center"><i>Who am I?</i></h3>
+<h2 align="center"><i>Quien soy?</i></h3>
 
-```rust
-use theme::catppuccin::Mocha;
+using System;
+using System.Collections.Generic;
 
-struct BliAIk {
-    name: "Bli-AIk",
-    bio: "A paranoid code-monkey driven by pure interest.",
-    os: "Arch Linux", 
-    current_focus: ["Rust", "WGSL", "DSP", "Vue.js"],
-    working_on: "souprune",
-    fun_fact: "I use Arch." // BTW
+namespace PerfilDev
+{
+    public class MaxPlaying
+    {
+        public string Name { get; set; } = "MaxPlaying";
+        public string Bio { get; set; } = "A paranoid code-monkey driven by pure interest.";
+        public string OS { get; set; } = "Windows";
+        public List<string> CurrentFocus { get; set; } = new List<string> { "C#", "WGSL", "React", "Next.js" };
+        public string WorkingOn { get; set; } = "souprune";
+        public string FunFact { get; set; } = "I use Arch."; // BTW
+    }
+
+    public interface IDeveloper
+    {
+        string Contact();
+        void Collaborate();
+        void Ask();
+    }
+
+    public class DeveloperImpl : MaxPlaying, IDeveloper
+    {
+        public string Contact()
+        {
+            return "arielalejandroproc@gmail.com";
+        }
+
+        public void Collaborate()
+        {
+            Console.WriteLine("Open to casual chat with zero expectations");
+        }
+
+        public void Ask()
+        {
+            Console.WriteLine("The trick to doing something consistently without craving success");
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DeveloperImpl dev = new DeveloperImpl();
+            Console.WriteLine($"Nombre: {dev.Name}");
+            Console.WriteLine($"Bio: {dev.Bio}");
+            Console.WriteLine($"Sistema: {dev.OS}");
+            Console.WriteLine($"Enfoque actual: {string.Join(", ", dev.CurrentFocus)}");
+            Console.WriteLine($"Trabajando en: {dev.WorkingOn}");
+            Console.WriteLine($"Dato curioso: {dev.FunFact}");
+
+            Console.WriteLine($"Contacto: {dev.Contact()}");
+            dev.Collaborate();
+            dev.Ask();
+        }
+    }
 }
-
-impl Developer for BliAIk {
-    fn contact(&self) -> String {
-        "haikun2333@gmail.com".to_string()
-    }
-    
-    fn collaborate(&self) {
-        println!("Open to casual chat with zero expectations");
-    }
-    
-    fn ask(&self) {
-        println!("The trick to doing something consistently without craving success");
-    }
-}
-```
 ---
 
-<h2 align="center"><i>Tech Stack</i></h3>
+<h2 align="center"><i>Estadísticas</i></h3>
 
 <p align="center">
   <b>Languages</b><br><br>
@@ -79,6 +111,6 @@ impl Developer for BliAIk {
 ---
 
 <p align="center">
-  <a href="https://crushme-henna.vercel.apo/">Website</a> •
+  <a href="https://crushme-henna.vercel.app/">Website</a> •
   <a href="mailto: arielalejandroproc@gmail.com">Email Me</a>
 </p>
