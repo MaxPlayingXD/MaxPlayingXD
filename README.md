@@ -6,64 +6,7 @@
 
 <h2 align="center"><i>Quien soy?</i></h3>
 
-using System;
-using System.Collections.Generic;
-
-namespace PerfilDev
-{
-    public class MaxPlaying
-    {
-        public string Name { get; set; } = "MaxPlaying";
-        public string Bio { get; set; } = "A paranoid code-monkey driven by pure interest.";
-        public string OS { get; set; } = "Windows";
-        public List<string> CurrentFocus { get; set; } = new List<string> { "C#", "WGSL", "React", "Next.js" };
-        public string WorkingOn { get; set; } = "souprune";
-        public string FunFact { get; set; } = "I use Arch."; // BTW
-    }
-
-    public interface IDeveloper
-    {
-        string Contact();
-        void Collaborate();
-        void Ask();
-    }
-
-    public class DeveloperImpl : MaxPlaying, IDeveloper
-    {
-        public string Contact()
-        {
-            return "arielalejandroproc@gmail.com";
-        }
-
-        public void Collaborate()
-        {
-            Console.WriteLine("Open to casual chat with zero expectations");
-        }
-
-        public void Ask()
-        {
-            Console.WriteLine("The trick to doing something consistently without craving success");
-        }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            DeveloperImpl dev = new DeveloperImpl();
-            Console.WriteLine($"Nombre: {dev.Name}");
-            Console.WriteLine($"Bio: {dev.Bio}");
-            Console.WriteLine($"Sistema: {dev.OS}");
-            Console.WriteLine($"Enfoque actual: {string.Join(", ", dev.CurrentFocus)}");
-            Console.WriteLine($"Trabajando en: {dev.WorkingOn}");
-            Console.WriteLine($"Dato curioso: {dev.FunFact}");
-
-            Console.WriteLine($"Contacto: {dev.Contact()}");
-            dev.Collaborate();
-            dev.Ask();
-        }
-    }
-}
+# > Alguien.
 ---
 
 <h2 align="center"><i>Estadísticas</i></h3>
